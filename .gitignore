@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Never commit source, derived, or submission data.
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.zip
+data/**
+!data/README.md
+
+# Course documents and exploratory notebooks may contain embedded data or IDs.
+*.docx
+*.pdf
+*.ipynb
+
+# Generated artifacts
+artifacts/
+outputs/
+submissions/
+
